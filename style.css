@@ -1,0 +1,37 @@
+.todo_app{
+    background-color: rgb(234, 225, 225);
+    width: auto;
+    height: auto;
+    gap: 10px;
+    flex-direction: row;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 30px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+#user_task {
+    padding: 10px 25px;
+    border: 1px solid blue;
+    /* margin-left: 24px; */
+}
+#save{
+    padding: 10px 25px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
